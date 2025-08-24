@@ -136,6 +136,17 @@ FRONTEND_URL=http://localhost:3000
 ```
 ?page=1&limit=10&industry=Technology&size=Startup&city=Bangalore&search=tech
 ```
+## Screenshots
+
+### Dashboard
+![Dashboard](https://github.com/mrityu12/company-management-system/blob/18a61d9f8184ea4facbfb1132e1f99346ac52846/Screenshot%202025-08-24%20230020.png)
+
+### Employee List
+![Employee List](https://github.com/mrityu12/company-management-system/blob/18a61d9f8184ea4facbfb1132e1f99346ac52846/Screenshot%202025-08-24%20230031.png)
+
+### Reports
+![Reports](https://github.com/mrityu12/company-management-system/blob/18a61d9f8184ea4facbfb1132e1f99346ac52846/Screenshot%202025-08-24%20230109.png)
+
 
 ## 🎨 UI Features
 
@@ -246,4 +257,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Built with ❤️ using Node.js, React.js, and MongoDB**
+**Built with ❤️ Mrityunjay Kumar using Node.js, React.js, and MongoDB**

@@ -1,0 +1,183 @@
+.company-card {
+          background: white;
+          border-radius: 12px;
+          box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+          overflow: hidden;
+          transition: transform 0.2s ease, box-shadow 0.2s ease;
+          height: fit-content;
+        }
+
+        .company-card:hover {
+          transform: translateY(-2px);
+          box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .card-header {
+          background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+          padding: 1.25rem;
+          border-bottom: 1px solid #dee2e6;
+        }
+
+        .company-header {
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+          margin-bottom: 0.75rem;
+        }
+
+        .company-name {
+          font-size: 1.25rem;
+          font-weight: 700;
+          color: #333;
+          margin: 0;
+          flex: 1;
+          margin-right: 1rem;
+        }
+
+        .company-actions {
+          display: flex;
+          gap: 0.5rem;
+          flex-shrink: 0;
+        }
+
+        .company-meta {
+          display: flex;
+          gap: 0.5rem;
+          flex-wrap: wrap;
+        }
+
+        .industry-tag {
+          display: inline-block;
+          padding: 0.25rem 0.75rem;
+          color: white;
+          border-radius: 15px;
+          font-size: 0.8rem;
+          font-weight: 600;
+        }
+
+        .size-badge {
+          display: inline-block;
+          padding: 0.25rem 0.75rem;
+          background-color: #e9ecef;
+          color: #333;
+          border-radius: 15px;
+          font-size: 0.8rem;
+        }
+
+        .card-body {
+          padding: 1.25rem;
+        }
+
+        .company-description {
+          color: #666;
+          line-height: 1.5;
+          margin-bottom: 1rem;
+          font-size: 0.95rem;
+        }
+
+        .company-details {
+          margin-bottom: 1rem;
+        }
+
+        .detail-item {
+          display: flex;
+          align-items: center;
+          margin-bottom: 0.5rem;
+          font-size: 0.9rem;
+        }
+
+        .detail-icon {
+          width: 20px;
+          margin-right: 0.5rem;
+          font-size: 0.8rem;
+        }
+
+        .detail-text {
+          color: #666;
+          flex: 1;
+        }
+
+        .detail-link {
+          color: #667eea;
+          text-decoration: none;
+          flex: 1;
+        }
+
+        .detail-link:hover {
+          text-decoration: underline;
+        }
+
+        .company-tags {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 0.25rem;
+          margin-bottom: 1rem;
+        }
+
+        .tag {
+          display: inline-block;
+          padding: 0.2rem 0.5rem;
+          background-color: #f8f9fa;
+          color: #666;
+          border-radius: 12px;
+          font-size: 0.75rem;
+          border: 1px solid #e9ecef;
+        }
+
+        .card-footer {
+          padding-top: 1rem;
+          border-top: 1px solid #f8f9fa;
+        }
+
+        .text-muted {
+          color: #999;
+          font-size: 0.8rem;
+        }
+
+        .btn {
+          padding: 0.4rem 0.8rem;
+          border: none;
+          border-radius: 6px;
+          font-size: 0.8rem;
+          cursor: pointer;
+          transition: all 0.2s ease;
+        }
+
+        .btn-sm {
+          padding: 0.3rem 0.6rem;
+          font-size: 0.75rem;
+        }
+
+        .btn-secondary {
+          background-color: #6c757d;
+          color: white;
+        }
+
+        .btn-secondary:hover {
+          background-color: #5a6268;
+        }
+
+        .btn-danger {
+          background-color: #dc3545;
+          color: white;
+        }
+
+        .btn-danger:hover {
+          background-color: #c82333;
+        }
+
+        @media (max-width: 480px) {
+          .company-header {
+            flex-direction: column;
+            gap: 0.75rem;
+          }
+
+          .company-actions {
+            align-self: flex-end;
+          }
+
+          .card-header,
+          .card-body {
+            padding: 1rem;
+          }
+        }
